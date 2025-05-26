@@ -1,0 +1,288 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --branco: #ffffff;
+    --claro: #B7B7A4; 
+    --medio: #A5A58D;
+    --medio-transparente: #a5a58d7f;
+    --escuro: #696D5B;
+    --cinza: #E6E6E6;
+}
+header nav{
+    background-color: var(--claro);
+    padding: 15px 15px 10px 40px;
+}
+header .menu{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+header a{
+    text-decoration: none;
+    color: var(--cinza);
+    font-size: 1.3em;
+}
+.sapatos-slip-on{
+    height: 450px;
+    background-color: var(--claro);
+    position: relative;
+}
+.sapatos-slip-on img{
+    width: 450px;
+    position: absolute;
+    top: 90px;
+    left: 470px;
+    transform: rotate(-15deg);
+}
+.sapatos-slip-on-sapatos{
+    position: absolute;
+    top: 50px;
+    left: 415px;
+}
+.sapatos-slip-on-slip-on{
+    position: absolute;
+    top: 200px;
+    left: 443.5px;
+}
+.sapatos-slip-on-sapatos h1{
+    font-size: 9em;
+    color: var(--cinza);
+}
+.sapatos-slip-on-slip-on h1{
+    font-size: 9em;
+    color: var(--cinza);
+}
+.container-loafer{
+    position: relative;
+}
+.loafer-titulo h1{
+    font-size: 6em;
+    color: var(--cinza);
+    text-align: center;
+    position: absolute;
+    top: 70px;
+    left: 590px;
+}
+.slip-on-loafer{
+    height: 2050px;
+    background-color: var(--escuro);
+}
+.loafer-penny{
+    background-color: var(--medio-transparente);
+    height: 400px;
+    width: 1000px;
+    position: absolute;
+    top: 250px;
+    left: 220px;
+}
+.penny-titulo h2{
+    font-size: 4em;
+    color: var(--cinza);
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: -100px;
+}
+.loafer-penny img{
+    width: 400px;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+.loafer-penny p{
+    color: var(--cinza);
+    font-size: 1.2em;
+    width: 500px;
+    position: absolute;
+    top: 160px;
+    left: 450px;
+}
+.loafer-tassel{
+    background-color: var(--medio-transparente);
+    height: 400px;
+    width: 1000px;
+    position: absolute;
+    top: 700px;
+    left: 220px;
+}
+.tassel-titulo h2{
+    font-size: 4em;
+    color: var(--cinza);
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 930px;
+}
+.loafer-tassel img{
+    width: 400px;
+    position: absolute;
+    top: 40px;
+    left: 600px;
+}
+.loafer-tassel p{
+    color: var(--cinza);
+    font-size: 1.2em;
+    width: 500px;
+    position: absolute;
+    top: 160px;
+    left: 50px;
+}
+.loafer-kiltie{
+    background-color: var(--medio-transparente);
+    height: 400px;
+    width: 1000px;
+    position: absolute;
+    top: 1150px;
+    left: 220px;
+}
+.kiltie-titulo h2{
+    font-size: 4em;
+    color: var(--cinza);
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: -80px;
+}
+.loafer-kiltie img{
+    width: 400px;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+.loafer-kiltie p{
+    color: var(--cinza);
+    font-size: 1.2em;
+    width: 500px;
+    position: absolute;
+    top: 160px;
+    left: 450px;
+}
+.loafer-horsebit{
+    background-color: var(--medio-transparente);
+    height: 400px;
+    width: 1000px;
+    position: absolute;
+    top: 1600px;
+    left: 220px;
+}
+.horsebit-titulo h2{
+    font-size: 4em;
+    color: var(--cinza);
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 930px;
+}
+.loafer-horsebit img{
+    width: 400px;
+    position: absolute;
+    top: 40px;
+    left: 600px;
+}
+.loafer-horsebit p{
+    color: var(--cinza);
+    font-size: 1.2em;
+    width: 500px;
+    position: absolute;
+    top: 160px;
+    left: 50px;
+}
+.slip-on-mocassim{
+    background-color: var(--claro);
+    height: 600px;
+}
+.container-mocassim{
+    position: relative;
+}
+.slip-on-mocassim img{
+    width: 500px;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    transform: scaleX(-1);
+}
+.slip-on-mocassim h1{
+    color: var(--escuro);
+    font-size: 6em;
+    position: absolute;
+    top: 400px;
+    left: 750px;
+}
+.slip-on-mocassim p{
+    width: 700px;
+    color: var(--escuro);
+    font-size: 1.2em;
+    position: absolute;
+    top: 200px;
+    left: 550px;
+}
+footer{
+    background-color:var(--escuro) ;
+    height: 200px;
+}
+.container-footer{
+    position: relative;
+}
+.container-footer img{
+    width: 20px;
+}
+.footer-luigi h1{
+    font-size: 1.2em;
+    color: var(--cinza);
+    font-weight: normal;
+    position: absolute;
+    top: 40px;
+    left: 655px;
+}
+.footer-paginas a{
+    text-decoration: none;
+    color: var(--claro);
+}
+.footer-inicio{
+    position: absolute;
+    top: 90px;
+    left: 505px;
+}
+.footer-sapatos{
+    position: absolute;
+    top: 90px;
+    left: 569px;
+}
+.footer-elegancia{
+    position: absolute;
+    top: 90px;
+    left: 683px;
+}
+.footer-sobre-nos{
+    position: absolute;
+    top: 90px;
+    left: 784px;
+}
+.footer-contato{
+    position: absolute;
+    top: 90px;
+    left: 890px;
+}
+.footer-insta{
+    position: absolute;
+    top: 140px;
+    left: 650px;
+}
+.footer-face{
+    position: absolute;
+    top: 140px;
+    left: 690px;
+}
+.footer-whats{
+    position: absolute;
+    top: 140px;
+    left: 730px;
+}
+.footer-map{
+    position: absolute;
+    top: 140px;
+    left: 770px;
+}

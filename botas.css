@@ -1,0 +1,368 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --branco: #ffffff;
+    --claro: #B7B7A4; 
+    --medio: #A5A58D;
+    --medio-transparente: #a5a58d7f;
+    --escuro: #696D5B;
+    --escuro-transparente: #696d5b86;
+    --cinza: #E6E6E6;
+}
+header nav{
+    background-color: var(--claro);
+    padding: 15px 15px 10px 40px;
+    border: 2px solid rgba(0, 0, 0, 0.269);
+}
+header .menu{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+header a{
+    text-decoration: none;
+    color: var(--cinza);
+    font-size: 1.3em;
+}
+.sapatos-botas{
+    height: 450px;
+    background-color: var(--escuro);
+    position: relative;
+}
+.sapatos-botas img{
+    width: 400px;
+    position: absolute;
+    top: 80px;
+    left: 750px;
+}
+.sapatos-botas-botas{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+.sapatos-botas-botas h1{
+    font-size: 9em;
+    color: var(--cinza);
+}
+.botas-chelsea{
+    height: 800px;
+    background-color: var(--claro);
+}
+.container-chelsea{
+    position: relative;
+}
+.chelsea-1 img{
+    position: absolute;
+    top: 30px;
+    left: 710px;
+    width: 400px;
+    transform: scaleX(-1);
+}
+.chelsea-2 img{
+    position: absolute;
+    top: 30px;
+    left: 412px;
+    width: 400px;
+    transform: scaleX(-1);
+}
+.botas-chelsea h1{
+    font-size: 8em;
+    color: var(--escuro);
+    position: absolute;
+    top: 400px;
+    left: 495px;
+}
+.botas-chelsea p{
+    font-size: 1.3em;
+    color: var(--escuro);
+    position: absolute;
+    top: 570px;
+    left: 145px;
+    width: 1150px;
+    text-align: center;
+}
+.container-chukka{
+    position: relative;
+}
+.botas-chukka{
+    height: 800px;
+    background-color: var(--escuro);
+}
+.botas-chukka h1{
+    font-size: 9em;
+    color: var(--cinza);
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+.botas-chukka p{
+    font-size: 1.3em;
+    color: var(--claro);
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    width: 650px;
+}
+.botas-chukka img{
+    position: absolute;
+    top: 250px;
+    left: 830px;
+    width: 600px;
+}
+.botas-desert{
+    height: 800px;
+    background-color: var(--claro);
+}
+.desert-bloco{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    background-color: var(--escuro-transparente);
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+.desert-bloco img{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    width: 400px;
+    transform: scaleX(-1);
+}
+.desert-bloco-h1{
+    position: absolute;
+    top: 600px;
+    left: 450px;
+    background-color: var(--escuro-transparente);
+    width: 410px;
+    height: 140px;
+}
+.desert-bloco-h1 h1{
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    font-size: 8em;
+    color: var(--cinza);
+}
+.botas-desert p{
+    font-size: 1.3em;
+    color: var(--escuro);
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    width: 750px;
+}
+.container-desert{
+    position: relative;
+}
+.botas-work{
+    height: 800px;
+    background-color: var(--escuro);
+}
+.container-work{
+    position: relative;
+}
+.work-bloco{
+    position: absolute;
+    top: 180px;
+    left: 930px;
+    width: 450px;
+    height: 450px;
+    background-color: var(--medio-transparente);
+}
+.work-bloco img{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 400px;
+}
+.work-bloco-superior{
+    position: absolute;
+    top: 200px;
+    left: 770px;
+    width: 200px;
+    height: 200px;
+    background-color: var(--medio-transparente);
+    border-radius: 50%;
+}
+.work-bloco-superior img{
+    position: absolute;
+    width: 200px;
+}
+.work-bloco-inferior{
+    position: absolute;
+    top: 550px;
+    left: 1150px;
+    width: 185px;
+    height: 185px;
+    background-color: var(--medio-transparente);
+    border-radius: 50%;
+}
+.work-bloco-inferior img{
+    position: absolute;
+    top: 5px;
+    width: 200px;
+}
+.botas-work h1{
+    position: absolute;
+    top: 550px;
+    left: 660px;
+    color: var(--cinza);
+    font-size: 9em;
+}
+.botas-work p{
+    position: absolute;
+    top: 140px;
+    left: 70px;
+    color: var(--claro);
+    font-size: 1.3em;
+    width: 550px;
+    text-align: left;
+}
+.botas-dress{
+    height: 800px;
+    background-color: var(--claro);
+}
+.container-dress{
+    position: relative;
+}
+.botas-dress h1{
+    position: absolute;
+    top: 50px;
+    left: 220px;
+    font-size: 8em;
+    color: var(--cinza);
+}
+.botas-dress p{
+    position: absolute;
+    top: 300px;
+    left: 750px;
+    font-size: 1.3em;
+    color: var(--escuro);
+    width: 600px;
+    text-align: center;
+}
+.dress-bloco{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 550px;
+    height: 650px;
+    border-top-left-radius: 290px;
+    border-top-right-radius: 290px;
+    background-color: var(--escuro-transparente);
+}
+.dress-bloco img{
+    position: absolute;
+    top: 140px;
+    left: 30px;
+    width: 500px;
+    transform: scaleX(-1);
+}
+.botas-jodhpur{
+    height: 800px;
+    background-color: var(--escuro);
+}
+.container-jodhpur{
+    position: relative;
+}
+.jodhpur-bloco{
+    position: absolute;
+    top: 150px;
+    left: 940px;
+    width: 500px;
+    height: 500px;
+    background-color: var(--medio-transparente);
+}
+.jodhpur-bloco img{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 450px;
+}
+.botas-jodhpur h1{
+    position: absolute;
+    top: 60px;
+    left: 520px;
+    font-size: 8em;
+    color: var(--cinza);
+}
+.botas-jodhpur p{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    font-size: 1.3em;
+    color: var(--claro);
+    width: 600px;
+    text-align: left;
+}
+footer{
+    background-color:var(--escuro) ;
+    height: 200px;
+}
+.container-footer{
+    position: relative;
+}
+.container-footer img{
+    width: 20px;
+}
+.footer-luigi h1{
+    font-size: 1.2em;
+    color: var(--cinza);
+    font-weight: normal;
+    position: absolute;
+    top: 40px;
+    left: 655px;
+}
+.footer-paginas a{
+    text-decoration: none;
+    color: var(--claro);
+}
+.footer-inicio{
+    position: absolute;
+    top: 90px;
+    left: 505px;
+}
+.footer-sapatos{
+    position: absolute;
+    top: 90px;
+    left: 569px;
+}
+.footer-elegancia{
+    position: absolute;
+    top: 90px;
+    left: 683px;
+}
+.footer-sobre-nos{
+    position: absolute;
+    top: 90px;
+    left: 784px;
+}
+.footer-contato{
+    position: absolute;
+    top: 90px;
+    left: 890px;
+}
+.footer-insta{
+    position: absolute;
+    top: 140px;
+    left: 650px;
+}
+.footer-face{
+    position: absolute;
+    top: 140px;
+    left: 690px;
+}
+.footer-whats{
+    position: absolute;
+    top: 140px;
+    left: 730px;
+}
+.footer-map{
+    position: absolute;
+    top: 140px;
+    left: 770px;
+}

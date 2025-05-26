@@ -1,0 +1,223 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --branco: #ffffff;
+    --claro: #B7B7A4; 
+    --medio: #A5A58D;
+    --medio-transparente: #a5a58d7f;
+    --escuro: #696D5B;
+    --escuro-transparente: #696d5b86;
+    --cinza: #E6E6E6;
+}
+header nav{
+    background-color: var(--claro);
+    padding: 15px 15px 10px 40px;
+}
+header .menu{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+header a{
+    text-decoration: none;
+    color: var(--cinza);
+    font-size: 1.3em;
+}
+.sapatos-festa{
+    height: 450px;
+    background-color: var(--escuro);
+    position: relative;
+}
+.sapatos-festa img{
+    width: 400px;
+    position: absolute;
+    top: 80px;
+    left: 500px;
+    transform: rotate(-15deg);
+}
+.sapatos-festa-sapatos{
+    position: absolute;
+    top: 50px;
+    left: 415px;
+}
+.sapatos-festa-festa{
+    position: absolute;
+    top: 200px;
+    left: 516.5px;
+}
+.sapatos-festa-sapatos h1{
+    font-size: 9em;
+    color: var(--cinza);
+}
+.sapatos-festa-festa h1{
+    font-size: 9em;
+    color: var(--cinza);
+}
+.festa-opera-pumps{
+    height: 800px;
+    background-color: var(--claro);
+}
+.container-opera-pumps{
+    position: relative;
+}
+.festa-opera-pumps h1{
+    color: var(--cinza);
+    font-size: 8em;
+    position: absolute;
+    top: 40px;
+    left: 344.5px;
+}
+.festa-opera-pumps img{
+    position: absolute;
+    top: 150px;
+    left: 470px;
+    width: 500px;
+}
+.festa-opera-pumps p{
+    width: 1000px;
+    font-size: 1.3em;
+    color: var(--escuro);
+    position: absolute;
+    top: 550px;
+    left: 220px;
+    text-align: center;
+}
+.festa-patent-leather{
+    height: 800px;
+    background-color: var(--escuro);
+}
+.container-patent-leather{
+    position: relative;
+}
+.patent-leather-bloco{
+    width: 450px;
+    height: 700px;
+    border-top-right-radius: 230px;
+    border-bottom-right-radius: 230px;
+    background-color: var(--medio-transparente);
+    position: relative;
+    top: 50px;
+    left: 0px;
+}
+.festa-patent-leather h1{
+    color: var(--cinza);
+    font-size: 8em;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+.festa-patent-leather img{
+    width: 500px;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    transform: scaleX(-1);
+}
+.festa-patent-leather p{
+    width: 700px;
+    font-size: 1.3em;
+    color: var(--claro);
+    position: absolute;
+    top: 350px;
+    left: 650px;
+    text-align: left;
+}
+.festa-velvet-slippers{
+    height: 800px;
+    background-color: var(--claro);
+}
+.container-velvet-slippers{
+    position: relative;
+}
+.festa-velvet-slippers p{
+    width: 600px;
+    font-size: 1.3em;
+    color: var(--escuro);
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    text-align: center;
+}
+.festa-velvet-slippers img{
+    width: 600px;
+    position: absolute;
+    top: 400px;
+    left: 780px;
+}
+.festa-velvet-slippers h1{
+    color: var(--escuro);
+    font-size: 8em;
+    position: absolute;
+    top: 70px;
+    left: 160px;
+}
+footer{
+    background-color:var(--escuro) ;
+    height: 200px;
+}
+.container-footer{
+    position: relative;
+}
+.container-footer img{
+    width: 20px;
+}
+.footer-luigi h1{
+    font-size: 1.2em;
+    color: var(--cinza);
+    font-weight: normal;
+    position: absolute;
+    top: 40px;
+    left: 655px;
+}
+.footer-paginas a{
+    text-decoration: none;
+    color: var(--claro);
+}
+.footer-inicio{
+    position: absolute;
+    top: 90px;
+    left: 505px;
+}
+.footer-sapatos{
+    position: absolute;
+    top: 90px;
+    left: 569px;
+}
+.footer-elegancia{
+    position: absolute;
+    top: 90px;
+    left: 683px;
+}
+.footer-sobre-nos{
+    position: absolute;
+    top: 90px;
+    left: 784px;
+}
+.footer-contato{
+    position: absolute;
+    top: 90px;
+    left: 890px;
+}
+.footer-insta{
+    position: absolute;
+    top: 140px;
+    left: 650px;
+}
+.footer-face{
+    position: absolute;
+    top: 140px;
+    left: 690px;
+}
+.footer-whats{
+    position: absolute;
+    top: 140px;
+    left: 730px;
+}
+.footer-map{
+    position: absolute;
+    top: 140px;
+    left: 770px;
+}

@@ -1,0 +1,203 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --branco: #ffffff;
+    --claro: #B7B7A4; 
+    --medio: #A5A58D;
+    --medio-transparente: #a5a58d7f;
+    --escuro: #696D5B;
+    --escuro-transparente: #696d5b86;
+    --cinza: #E6E6E6;
+}
+header nav{
+    background-color: var(--claro);
+    padding: 15px 15px 10px 40px;
+}
+header .menu{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+header a{
+    text-decoration: none;
+    color: var(--cinza);
+    font-size: 1.3em;
+}
+.sapatos-fivela{
+    height: 450px;
+    background-color: var(--claro);
+    position: relative;
+}
+.sapatos-fivela img{
+    width: 450px;
+    position: absolute;
+    top: 90px;
+    left: 470px;
+    transform: rotate(-15deg);
+}
+.sapatos-fivela-sapatos{
+    position: absolute;
+    top: 50px;
+    left: 415px;
+}
+.sapatos-fivela-monk-strap{
+    position: absolute;
+    top: 200px;
+    left: 278px;
+}
+.sapatos-fivela-sapatos h1{
+    font-size: 9em;
+    color: var(--cinza);
+}
+.sapatos-fivela-monk-strap h1{
+    font-size: 9em;
+    color: var(--cinza);
+}
+.fivela-single-monk-strap{
+    height: 800px;
+    background-color: var(--escuro);
+}
+.container-single{
+    position: relative;
+}
+.fivela-1-linha{
+    height: 800px;
+    width: 300px;
+    background-color: var(--medio-transparente);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.single-titulo h1{
+    color: var(--cinza);
+    font-size: 6em;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+}
+.fivela-single-monk-strap img{
+    width: 600px;
+    transform: scaleX(-1);
+    position: absolute;
+    top: 400px;
+    left: 50px;
+}
+.single-texto{
+    width: 600px;
+    text-align: left;
+    font-size: 1.3em;
+    color: var(--claro);
+    position: absolute;
+    top: 300px;
+    left: 740px;
+}
+.fivela-double-monk-strap{
+    height: 800px;
+    background-color: var(--claro);
+}
+.container-double{
+    position: relative;
+}
+.fivela-2-linha{
+    height: 800px;
+    width: 300px;
+    background-color:var(--escuro-transparente);
+    position: absolute;
+    top: 0px;
+    left: 1140px;
+}
+.double-titulo h1{
+    color: var(--escuro);
+    font-size: 6em;
+    position: absolute;
+    top: 70px;
+    left: 550px;
+}
+.fivela-double-monk-strap img{
+    width: 600px;
+    position: absolute;
+    top: 370px;
+    left: 790px;
+}
+.double-texto{
+    width: 600px;
+    text-align: left;
+    font-size: 1.3em;
+    color: var(--escuro);
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+.container-double{
+    position: relative;
+}
+footer{
+    background-color:var(--escuro) ;
+    height: 200px;
+}
+.container-footer{
+    position: relative;
+}
+.container-footer img{
+    width: 20px;
+}
+.footer-luigi h1{
+    font-size: 1.2em;
+    color: var(--cinza);
+    font-weight: normal;
+    position: absolute;
+    top: 40px;
+    left: 655px;
+}
+.footer-paginas a{
+    text-decoration: none;
+    color: var(--claro);
+}
+.footer-inicio{
+    position: absolute;
+    top: 90px;
+    left: 505px;
+}
+.footer-sapatos{
+    position: absolute;
+    top: 90px;
+    left: 569px;
+}
+.footer-elegancia{
+    position: absolute;
+    top: 90px;
+    left: 683px;
+}
+.footer-sobre-nos{
+    position: absolute;
+    top: 90px;
+    left: 784px;
+}
+.footer-contato{
+    position: absolute;
+    top: 90px;
+    left: 890px;
+}
+.footer-insta{
+    position: absolute;
+    top: 140px;
+    left: 650px;
+}
+.footer-face{
+    position: absolute;
+    top: 140px;
+    left: 690px;
+}
+.footer-whats{
+    position: absolute;
+    top: 140px;
+    left: 730px;
+}
+.footer-map{
+    position: absolute;
+    top: 140px;
+    left: 770px;
+}
