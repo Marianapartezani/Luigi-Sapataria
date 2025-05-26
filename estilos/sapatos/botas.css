@@ -12,6 +12,21 @@
     --escuro-transparente: #696d5b86;
     --cinza: #E6E6E6;
 }
+header nav{
+    background-color: var(--claro);
+    padding: 15px 15px 10px 40px;
+    border: 2px solid rgba(0, 0, 0, 0.269);
+}
+header .menu{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+header a{
+    text-decoration: none;
+    color: var(--cinza);
+    font-size: 1.3em;
+}
 .sapatos-botas{
     height: 450px;
     background-color: var(--escuro);
@@ -150,6 +165,63 @@
 .container-work{
     position: relative;
 }
+.work-bloco{
+    position: absolute;
+    top: 180px;
+    left: 930px;
+    width: 450px;
+    height: 450px;
+    background-color: var(--medio-transparente);
+}
+.work-bloco img{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 400px;
+}
+.work-bloco-superior{
+    position: absolute;
+    top: 200px;
+    left: 770px;
+    width: 200px;
+    height: 200px;
+    background-color: var(--medio-transparente);
+    border-radius: 50%;
+}
+.work-bloco-superior img{
+    position: absolute;
+    width: 200px;
+}
+.work-bloco-inferior{
+    position: absolute;
+    top: 550px;
+    left: 1150px;
+    width: 185px;
+    height: 185px;
+    background-color: var(--medio-transparente);
+    border-radius: 50%;
+}
+.work-bloco-inferior img{
+    position: absolute;
+    top: 5px;
+    width: 200px;
+}
+.botas-work h1{
+    position: absolute;
+    top: 550px;
+    left: 660px;
+    color: var(--cinza);
+    font-size: 9em;
+}
+.botas-work p{
+    position: absolute;
+    top: 140px;
+    left: 70px;
+    color: var(--claro);
+    font-size: 1.3em;
+    width: 550px;
+    text-align: left;
+}
 .botas-dress{
     height: 800px;
     background-color: var(--claro);
@@ -157,12 +229,75 @@
 .container-dress{
     position: relative;
 }
+.botas-dress h1{
+    position: absolute;
+    top: 50px;
+    left: 220px;
+    font-size: 8em;
+    color: var(--cinza);
+}
+.botas-dress p{
+    position: absolute;
+    top: 300px;
+    left: 750px;
+    font-size: 1.3em;
+    color: var(--escuro);
+    width: 600px;
+    text-align: center;
+}
+.dress-bloco{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 550px;
+    height: 650px;
+    border-top-left-radius: 290px;
+    border-top-right-radius: 290px;
+    background-color: var(--escuro-transparente);
+}
+.dress-bloco img{
+    position: absolute;
+    top: 140px;
+    left: 30px;
+    width: 500px;
+    transform: scaleX(-1);
+}
 .botas-jodhpur{
     height: 800px;
     background-color: var(--escuro);
 }
 .container-jodhpur{
     position: relative;
+}
+.jodhpur-bloco{
+    position: absolute;
+    top: 150px;
+    left: 940px;
+    width: 500px;
+    height: 500px;
+    background-color: var(--medio-transparente);
+}
+.jodhpur-bloco img{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 450px;
+}
+.botas-jodhpur h1{
+    position: absolute;
+    top: 60px;
+    left: 520px;
+    font-size: 8em;
+    color: var(--cinza);
+}
+.botas-jodhpur p{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    font-size: 1.3em;
+    color: var(--claro);
+    width: 600px;
+    text-align: left;
 }
 footer{
     background-color:var(--escuro) ;

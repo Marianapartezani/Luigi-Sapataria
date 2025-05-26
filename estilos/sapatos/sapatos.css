@@ -16,9 +16,7 @@ header nav{
 }
 header .menu{
     display: flex;
-    list-style: none;
     gap: 40px;
-    margin: auto;
     justify-content: center;
 }
 header a{

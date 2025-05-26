@@ -12,9 +12,23 @@
     --escuro-transparente: #696d5b86;
     --cinza: #E6E6E6;
 }
+header nav{
+    background-color: var(--claro);
+    padding: 15px 15px 10px 40px;
+}
+header .menu{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+header a{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 1.3em;
+}
 .sapatos-casuais{
     height: 450px;
-    background-color: var(--claro);
+    background-color: var(--cinza);
     position: relative;
 }
 .sapatos-casuais img{
