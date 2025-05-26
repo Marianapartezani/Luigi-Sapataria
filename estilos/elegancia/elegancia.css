@@ -1,0 +1,98 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --branco: #ffffff;
+    --claro: #B7B7A4; 
+    --medio: #A5A58D;
+    --escuro: #696D5B;
+    --cinza: #E6E6E6;
+}
+
+header{
+    background-color:#696D5B ;
+    height:700px;
+}
+
+header h1{
+    color:#A5A58D;
+    font-size: 7em;
+    padding-top: 100px;
+    margin-left: 40px;
+}
+
+header h2{
+    color:#B7B7A4 ;
+    font-size: 3em;
+    margin-left: 40px;
+}
+footer{
+    background-color:var(--escuro) ;
+    height: 200px;
+}
+.container-footer{
+    position: relative;
+}
+.container-footer img{
+    width: 20px;
+}
+.footer-luigi h1{
+    font-size: 1.2em;
+    color: var(--cinza);
+    font-weight: normal;
+    position: absolute;
+    top: 40px;
+    left: 655px;
+}
+.footer-paginas a{
+    text-decoration: none;
+    color: var(--claro);
+}
+.footer-inicio{
+    position: absolute;
+    top: 90px;
+    left: 505px;
+}
+.footer-sapatos{
+    position: absolute;
+    top: 90px;
+    left: 569px;
+}
+.footer-elegancia{
+    position: absolute;
+    top: 90px;
+    left: 683px;
+}
+.footer-sobre-nos{
+    position: absolute;
+    top: 90px;
+    left: 784px;
+}
+.footer-contato{
+    position: absolute;
+    top: 90px;
+    left: 890px;
+}
+.footer-insta{
+    position: absolute;
+    top: 140px;
+    left: 650px;
+}
+.footer-face{
+    position: absolute;
+    top: 140px;
+    left: 690px;
+}
+.footer-whats{
+    position: absolute;
+    top: 140px;
+    left: 730px;
+}
+.footer-map{
+    position: absolute;
+    top: 140px;
+    left: 770px;
+}
+

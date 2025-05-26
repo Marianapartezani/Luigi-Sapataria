@@ -1,0 +1,256 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --branco: #ffffff;
+    --claro: #B7B7A4; 
+    --medio: #A5A58D;
+    --medio-transparente: #a5a58d7f;
+    --escuro: #696D5B;
+    --escuro-transparente: #696d5b86;
+    --cinza: #E6E6E6;
+}
+.sapatos-casuais{
+    height: 450px;
+    background-color: var(--claro);
+    position: relative;
+}
+.sapatos-casuais img{
+    width: 450px;
+    position: absolute;
+    top: 0px;
+    left: 490px;
+    transform: rotate(-15deg);
+}
+.sapatos-casuais-sapatos{
+    position: absolute;
+    top: 50px;
+    left: 415px;
+}
+.sapatos-casuais-casuais{
+    position: absolute;
+    top: 200px;
+    left: 423px;
+}
+.sapatos-casuais-sapatos h1{
+    font-size: 9em;
+    color: var(--cinza);
+}
+.sapatos-casuais-casuais h1{
+    font-size: 9em;
+    color: var(--cinza);
+}
+.casuais-sneakers{
+    height: 800px;
+    background-color: var(--escuro);
+}
+.container-sneakers{
+    position: relative;
+}
+.sneakers-bloco{
+    width: 1000px;
+    height: 750px;
+    background-color: var(--medio-transparente);
+    position: absolute;
+    top: 50px;
+    left: 220px;
+}
+.casuais-sneakers h1{
+    position: absolute;
+    top: 80px;
+    left: 280px;
+    color: var(--cinza);
+    font-size: 7em;
+}
+.casuais-sneakers img{
+    width: 600px;
+    position: absolute;
+    top: 280px;
+    left: 800px;
+}
+.casuais-sneakers p{
+    width: 600px;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    color: var(--claro);
+    font-size: 1.3em;
+}
+.casuais-dockside{
+    height: 800px;
+    background-color: var(--claro);
+}
+.container-dockside{
+    position: relative;
+}
+.casuais-dockside h1{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    color: var(--cinza);
+    font-size: 9em;
+}
+.casuais-dockside img{
+    transform: scaleX(-1);
+    width: 600px;
+    position: absolute;
+    top: 150px;
+    left: 60px;
+}
+.casuais-dockside p{
+    width: 600px;
+    position: absolute;
+    top: 350px;
+    left: 780px;
+    color: var(--escuro);
+    font-size: 1.3em;
+}
+.casuais-espadrilles{
+    height: 800px;
+    background-color: var(--escuro);
+}
+.container-espadrilles{
+    position: relative;
+}
+.espadrilles-bloco{
+    width: 550px;
+    height: 800px;
+    position: absolute;
+    top: 0px;
+    left: 890px;
+    background-color: var(--medio-transparente);
+}
+.casuais-espadrilles img{
+    width: 500px;
+    position: absolute;
+    top: 150px;
+    left: 910px;
+}
+.casuais-espadrilles h1{
+    position: absolute;
+    top: 600px;
+    left: 700px;
+    color: var(--cinza);
+    font-size: 8em;
+}
+.casuais-espadrilles p{
+    width: 600px;
+    position: absolute;
+    top: 200px;
+    left: 145px;
+    color: var(--claro);
+    font-size: 1.3em;
+}
+.casuais-driving{
+    height: 800px;
+    background-color: var(--claro);
+}
+.container-driving{
+    position: relative;
+}
+.driving-bloco{
+    width: 450px;
+    height: 450px;
+    background-color: var(--escuro-transparente);
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    left: 80px;
+}
+.driving-bloco img{
+    width: 400px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    transform: scaleX(-1);
+}
+.driving-back img{
+    width: 250px;
+    position: absolute;
+    top: 180px;
+    left: 370px;
+}
+.casuais-driving h1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: var(--cinza);
+    font-size: 8em;
+}
+.casuais-driving p{
+    width: 600px;
+    position: absolute;
+    top: 250px;
+    left: 700px;
+    color: var(--escuro);
+    font-size: 1.3em;
+}
+footer{
+    background-color:var(--escuro) ;
+    height: 200px;
+}
+.container-footer{
+    position: relative;
+}
+.container-footer img{
+    width: 20px;
+}
+.footer-luigi h1{
+    font-size: 1.2em;
+    color: var(--cinza);
+    font-weight: normal;
+    position: absolute;
+    top: 40px;
+    left: 655px;
+}
+.footer-paginas a{
+    text-decoration: none;
+    color: var(--claro);
+}
+.footer-inicio{
+    position: absolute;
+    top: 90px;
+    left: 505px;
+}
+.footer-sapatos{
+    position: absolute;
+    top: 90px;
+    left: 569px;
+}
+.footer-elegancia{
+    position: absolute;
+    top: 90px;
+    left: 683px;
+}
+.footer-sobre-nos{
+    position: absolute;
+    top: 90px;
+    left: 784px;
+}
+.footer-contato{
+    position: absolute;
+    top: 90px;
+    left: 890px;
+}
+.footer-insta{
+    position: absolute;
+    top: 140px;
+    left: 650px;
+}
+.footer-face{
+    position: absolute;
+    top: 140px;
+    left: 690px;
+}
+.footer-whats{
+    position: absolute;
+    top: 140px;
+    left: 730px;
+}
+.footer-map{
+    position: absolute;
+    top: 140px;
+    left: 770px;
+}
