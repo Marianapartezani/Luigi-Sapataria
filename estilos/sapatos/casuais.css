@@ -28,7 +28,7 @@ header a{
 }
 .sapatos-casuais{
     height: 450px;
-    background-color: var(--cinza);
+    background-color: var(--claro);
     position: relative;
 }
 .sapatos-casuais img{
