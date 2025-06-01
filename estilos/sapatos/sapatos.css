@@ -426,6 +426,128 @@ div.linha-fivela{
     background-color: var(--escuro);
     height: 820px;
 }
+.casual h1{
+    position: absolute;
+    top: 120px;
+    left: 634px;
+    font-size: 3em;
+    color: var(--claro);
+}
+.casual h2{
+    position: absolute;
+    top: 50px;
+    left: 439px;
+    font-size: 4em;
+    color: var(--cinza);
+}
+.casual-mais img{
+    position: absolute;
+    top: 75px;
+    left: 1020px;
+}
+.container-casual{
+    position: relative;
+}
+.casual-sneaker img{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 300px;
+}
+.casual-sneaker img:hover{
+    transform: scale(1.35);
+}
+.casual-sneaker h3{
+    position: absolute;
+    top: 480px;
+    left: 60px;
+    width: 280px;
+    font-size: 1.5em;
+    color: var(--cinza);
+}
+.casual-sneaker p{
+    position: absolute;
+    top: 530px;
+    left: 50px;
+    width: 250px;
+    text-align: center;
+    color: var(--claro);
+}
+.casual-boat img{
+    position: absolute;
+    top: 200px;
+    left: 380px;
+    width: 300px;
+}
+.casual-boat img:hover{
+    transform: scale(1.35);
+}
+.casual-boat h3{
+    position: absolute;
+    top: 480px;
+    left: 420px;
+    width: 280px;
+    font-size: 1.5em;
+    color: var(--cinza);
+}
+.casual-boat p{
+    position: absolute;
+    top: 530px;
+    left: 408px;
+    width: 250px;
+    text-align: center;
+    color: var(--claro);
+}
+.casual-espadrilles img{
+    position: absolute;
+    top: 200px;
+    left: 730px;
+    width: 300px;
+}
+.casual-espadrilles img:hover{
+    transform: scale(1.35);
+}
+.casual-espadrilles h3{
+    position: absolute;
+    top: 480px;
+    left: 830px;
+    width: 280px;
+    font-size: 1.5em;
+    color: var(--cinza);
+}
+.casual-espadrilles p{
+    position: absolute;
+    top: 530px;
+    left: 765px;
+    width: 250px;
+    text-align: center;
+    color: var(--claro);
+}
+.casual-driving img{
+    position: absolute;
+    top: 200px;
+    left: 1080px;
+    width: 300px;
+}
+.casual-driving img:hover{
+    transform: scale(1.35);
+}
+.casual-driving h3{
+    position: absolute;
+    top: 480px;
+    left: 1180px;
+    width: 280px;
+    font-size: 1.5em;
+    color: var(--cinza);
+}
+.casual-driving p{
+    position: absolute;
+    top: 530px;
+    left: 1125px;
+    width: 250px;
+    text-align: center;
+    color: var(--claro);
+}
 .tipico{
     background-color: var(--claro);
     height: 820px;

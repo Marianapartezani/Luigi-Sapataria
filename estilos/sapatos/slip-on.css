@@ -97,7 +97,7 @@ header a{
     font-size: 1.2em;
     width: 500px;
     position: absolute;
-    top: 160px;
+    top: 110px;
     left: 450px;
 }
 .loafer-tassel{
@@ -127,7 +127,7 @@ header a{
     font-size: 1.2em;
     width: 500px;
     position: absolute;
-    top: 160px;
+    top: 110px;
     left: 50px;
 }
 .loafer-kiltie{
@@ -157,7 +157,7 @@ header a{
     font-size: 1.2em;
     width: 500px;
     position: absolute;
-    top: 160px;
+    top: 110px;
     left: 450px;
 }
 .loafer-horsebit{
@@ -187,7 +187,7 @@ header a{
     font-size: 1.2em;
     width: 500px;
     position: absolute;
-    top: 160px;
+    top: 110px;
     left: 50px;
 }
 .slip-on-mocassim{
@@ -216,7 +216,7 @@ header a{
     color: var(--escuro);
     font-size: 1.2em;
     position: absolute;
-    top: 200px;
+    top: 150px;
     left: 550px;
 }
 footer{
