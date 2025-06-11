@@ -13,7 +13,7 @@
 
 header{
     background-color:#696D5B ;
-    height:700px;
+    height:200px;
 }
 
 header h1{
@@ -27,6 +27,37 @@ header h2{
     color:#B7B7A4 ;
     font-size: 3em;
     margin-left: 40px;
+}
+.elegancia{
+    background-color: var(--claro);
+    height: 800px;
+}
+.elegancia-container{
+    position: relative;
+}
+.elegancia-elegancia h1{
+    border: 3px solid var(--escuro);
+    position: absolute;
+    top: 80px;
+    
+    font-size: 9em;
+    font-weight: bold;
+    color: var(--escuro);
+}
+.elegancia h2{
+    font-size: 5em;
+    color: var(--cinza);
+    position: absolute;
+    top: 360px;
+    left: 300px;
+}
+.elegancia p{
+    font-size: 1.5em;
+    color: var(--cinza);
+    position: absolute;
+    width: 600px;
+    top: 450px;
+    left: 550px;
 }
 footer{
     background-color:var(--escuro) ;
