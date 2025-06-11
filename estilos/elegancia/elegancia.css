@@ -13,24 +13,23 @@
 
 header{
     background-color:#696D5B ;
-    height:200px;
+    height:50px;
 }
-
-header h1{
-    color:#A5A58D;
-    font-size: 7em;
-    padding-top: 100px;
-    margin-left: 40px;
+.menu{
+    padding-top: 10px;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    justify-content: center;
 }
-
-header h2{
-    color:#B7B7A4 ;
-    font-size: 3em;
-    margin-left: 40px;
+a{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 1.3em;
 }
 .elegancia{
     background-color: var(--claro);
-    height: 800px;
+    height: 780px;
 }
 .elegancia-container{
     position: relative;
@@ -39,10 +38,11 @@ header h2{
     border: 3px solid var(--escuro);
     position: absolute;
     top: 80px;
-    
     font-size: 9em;
     font-weight: bold;
     color: var(--escuro);
+    transform: translateX(-50%);
+    left: 50%;
 }
 .elegancia h2{
     font-size: 5em;
@@ -58,6 +58,11 @@ header h2{
     width: 600px;
     top: 450px;
     left: 550px;
+}
+.artigos div{
+    width: 1440px;
+    height: 200px;
+    background-color: var(--cinza);
 }
 footer{
     background-color:var(--escuro) ;
