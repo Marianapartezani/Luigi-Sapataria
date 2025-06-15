@@ -65,6 +65,7 @@ a{
 }
 .artigos{
     background-color: var(--cinza);
+    height: 2100px;
 }
 .artigos h1{
     font-size: 6em;
@@ -81,7 +82,8 @@ a{
 .artigos-modal{
     display: inline-block;
     width: 47%;
-    padding: 20px 50px 20px 100px;
+    padding: 60px 50px 60px 100px;
+    text-align: center;
 }
 .artigos-modal h2{
     font-size: 6em;
@@ -95,7 +97,12 @@ a{
     font-size: 1.2em;
     color: var(--escuro);
     text-align: center;
-    width: 300px;
+}
+.linha{
+    background-color: var(--claro);
+    height: 2px;
+    width: 90%;
+    margin: auto;
 }
 .modal {
     display: none;
