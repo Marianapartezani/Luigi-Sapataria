@@ -9,6 +9,7 @@
     --medio: #A5A58D;
     --escuro: #696D5B;
     --cinza: #E6E6E6;
+    --cinza-escuro: #313131;
 }
 
 header{
@@ -59,13 +60,43 @@ a{
     top: 450px;
     left: 550px;
 }
+.container{
+    width: 100%;
+}
+.artigos{
+    background-color: var(--cinza);
+}
+.artigos h1{
+    font-size: 6em;
+    text-align: right;
+    padding: 80px;
+    color: var(--escuro);
+}
 .artigos a {
     display: block;
     margin: 10px 0;
     color: blue;
     cursor: pointer;
-  }
-  
+}
+.artigos-modal{
+    display: inline-block;
+    width: 47%;
+    padding: 20px 50px 20px 100px;
+}
+.artigos-modal h2{
+    font-size: 6em;
+    color: var(--claro);
+}
+.artigos-modal h3{
+    font-size: 3em;
+    color: var(--cinza-escuro);
+}
+.artigos-modal p{
+    font-size: 1.2em;
+    color: var(--escuro);
+    text-align: center;
+    width: 300px;
+}
 .modal {
     display: none;
     position: fixed;
@@ -75,7 +106,17 @@ a{
     justify-content: center;
     align-items: center;
 }
-  
+.modal p{
+    font-size: 1.2em;
+    line-height: 1.6em;
+    text-indent: 1.5em;
+    text-align: justify;
+    padding: 30px;
+}
+.modal h3{
+    text-align: center;
+    padding: 30px;
+}
 .modal-content {
     background: white;
     padding: 20px;
@@ -84,7 +125,18 @@ a{
     max-width: 600px;
     position: relative;
 }
-  
+#modal5{
+   padding-top: 350px; 
+}
+#modal6{
+    padding-top: 690px; 
+}
+#modal7{
+    padding-top: 420px; 
+}
+#modal7 ul{
+    padding-left: 70px;
+}
 .close {
     position: absolute;
     top: 10px; right: 15px;
@@ -92,42 +144,69 @@ a{
     font-weight: bold;
     cursor: pointer;
 }
-#modal1 h3{
-    text-align: center;
-    padding: 30px;
+#p1{
+    padding-top: 30px;
+    padding-bottom: 0px;
 }
-#modal1 p{
-    font-size: 1.2em;
-    line-height: 1.6em;
-    text-indent: 1.5em;
-    text-align: justify;
-    padding: 30px;
+#p2{
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
-#modal2 h3{
-    text-align: center;
-    padding: 30px;
+#p3{
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
-#modal2 p{
-    font-size: 1.2em;
-    line-height: 1.6em;
-    text-indent: 1.5em;
-    text-align: justify;
-    padding: 30px;
+#p4{
+    padding-top: 0px;
+    padding-bottom: 30px;
 }
-#modal3 h3{
-    text-align: center;
-    padding: 30px;
-    padding-top: 200px;
+#p5{
+    padding-top: 30px;
+    padding-bottom: 0px;
 }
-#modal3 p{
-    font-size: 1.2em;
-    line-height: 1.6em;
-    text-indent: 1.5em;
-    text-align: justify;
-    padding: 30px;
+#p6{
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
-#modal3 {
-    
+#p7{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#p8{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#p9{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#p10{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#p11 {
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+#p12 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+#p13 {
+    padding: 0 30px 0 0;
+}
+#p14 {
+    padding: 0 30px 0 0;
+}
+#p15 {
+    padding: 0 30px 0 0;
+}
+#p16 {
+    padding: 0 30px 0 0;
+}
+#p17 {
+    padding-top: 0px;
+    padding-bottom: 30px;
 }
 footer{
     background-color:var(--escuro) ;
