@@ -63,6 +63,10 @@ nav{
     gap: 40px;
     justify-content: center;
 }
+nav a:hover{
+    text-decoration: none;
+    color: var(--cinza);
+}
 a{
     text-decoration: none;
     color: var(--branco);

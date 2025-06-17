@@ -24,6 +24,10 @@ header a{
     color: var(--branco);
     font-size: 1.3em;
 }
+nav a:hover{
+    text-decoration: none;
+    color: var(--cinza);
+}
 .classicos{
     background-color: var(--claro);
     height: 820px;

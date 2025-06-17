@@ -26,6 +26,10 @@ header a{
     color: var(--branco);
     font-size: 1.3em;
 }
+nav a:hover{
+    text-decoration: none;
+    color: var(--cinza);
+}
 .sapatos-casuais{
     height: 450px;
     background-color: var(--claro);

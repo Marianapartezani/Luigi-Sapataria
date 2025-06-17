@@ -25,6 +25,10 @@ header a{
     color: var(--cinza);
     font-size: 1.3em;
 }
+nav a:hover{
+    text-decoration: none;
+    color: var(--cinza);
+}
 .sapatos-slip-on{
     height: 450px;
     background-color: var(--claro);

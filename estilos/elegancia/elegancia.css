@@ -28,6 +28,10 @@ a{
     color: var(--branco);
     font-size: 1.3em;
 }
+nav a:hover{
+    text-decoration: none;
+    color: var(--cinza);
+}
 .elegancia{
     background-color: var(--claro);
     height: 780px;
