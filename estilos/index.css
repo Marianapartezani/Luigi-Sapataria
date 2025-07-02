@@ -10,283 +10,398 @@
     --escuro: #696D5B;
     --cinza: #E6E6E6;
 }
+
+
 html{
     scroll-behavior: smooth;
 }
-header{
-    background-color:var(--escuro) ;
-    height: 820px;
+
+
+/*nav*/
+@media (max-width: 992px){
+    .custom-navbar{
+        background-color: var(--claro);
+        padding: 1rem 2rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        width: 100%;
+    }
+    
+    .custom-navbar .nav-link{
+        text-decoration: none;
+        color: var(--branco);
+        font-size: 1.3em;
+    }
+    
+    .custom-navbar .nav-link:hover{
+        text-decoration: none;
+        color: var(--cinza);
+    }
+    
+    .custom-navbar .navbar-nav{
+        list-style: none;
+        gap: 2px;
+    }
 }
-.inicio-container{
-    position: relative;
-    height: 800px;
-    width: 100%;
+
+@media (min-width: 992px){
+    .custom-navbar{
+        background-color: var(--claro);
+        padding: 1rem 2rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        height: 8vh;
+        width: 100%;
+    }
+    
+    .custom-navbar .navbar-nav{
+        width: 644px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    .custom-navbar .nav-link{
+        text-decoration: none;
+        color: var(--branco);
+        font-size: 1.3em;
+    }
+    
+    .custom-navbar .nav-link:hover{
+        text-decoration: none;
+        color: var(--cinza);
+    }
+    
+    .custom-navbar .navbar-nav{
+        list-style: none;
+        gap: 40px;
+    }
 }
-.centralizador{
-    margin: auto;
+/*fim nav*/
+
+
+/*section inicial*/
+.inicio{
+  background-color: var(--escuro);
+  height: 70vw;
+  width: 100%;
+  max-height: 720px;
+  position: relative;
 }
+
 .img-bandeira img{
     position: absolute;
-    top: 360px;
-    left: 488px;
-    width: 100px;
+    width: 7vw;
+    left: 28vw;
+    top: 20vw;
 }
+
 .img-sapato img{
     position: absolute;
-    top: 120px;
-    left: 650px;
-    width: 700px;
+    width: 62vw;
+    max-width: 720px;
+    right: 4vw;
+    top: 10vh;
 }
+
+.titulo{
+  position: absolute;
+  top: 5vw;
+  left: 8vw;
+}
+
 .inicio h1{
     color:var(--claro);
-    font-size: 14em;
-    position: absolute;
-    top: 100px;
-    left: 100px;
+    font-size: 16vw;
+    margin-bottom: -5px;
 }
+
 .inicio h2{
     color:var(--claro);
-    font-size: 5.8em;
-    position: absolute;
-    top: 340px;
-    left: 100px;
+    font-size: 6.5vw;
 }
+
 .inicio h3{
     color:var(--claro) ;
-    font-size: 3em;
-    position: absolute;
-    top: 500px;
-    left: 100px;
+    font-size: 3.5vw;
+    margin-top: 30px;
 }
-nav{
-    background-color: var(--claro);
-    padding: 15px 15px 10px 40px;
-}
-.menu{
-    display: flex;
-    list-style: none;
-    gap: 40px;
-    justify-content: center;
-}
-nav a:hover{
-    text-decoration: none;
-    color: var(--cinza);
-}
-a{
-    text-decoration: none;
-    color: var(--branco);
-    font-size: 1.3em;
-}
+/*fim section inicial*/
+
+
+/*section sapatos*/
 .sapatos{
+    height: 55vw;
+    max-height: 700px;
+    width: 100%;
     background-color: var(--claro);
-    height: 820px;
-}
-.container-sapatos{
     position: relative;
 }
+
+.sapatos-titulo{
+    position: absolute;
+    width: 70vw;
+    top: 3vw;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
 .sapatos h1{
-    font-size: 12em;
-    text-align: center;
-    color: var(--branco);
-    padding-top: 30px;
+    color: var(--cinza);
+    font-size: 14vw;
 }
+
 .sapatos h2{
-    line-height: 1em;
-    font-size: 3em;
-    padding-left: 900px;
-    color: var(--branco);
+    color: var(--cinza);
+    font-size: 3.8vw;
+    margin-left: 56vw;
+    margin-top: -2vw;
+    
 }
+
 .sapatos a{
-    text-align: left;
     text-decoration: none;
 }
-.sapatos-mais{
+
+.sapatos-mais img{
+    width: 3.8vw;
+    max-width: 40px;
     position: absolute;
-    top: 345px;
-    left: 1040px;
+    top: 21vw;
+    left: 65vw;
 }
-.sapatos-sapato-social{
+
+.sapatos-sapato-social img{
     position: absolute;
-    top: 380px;
-    left: 200px;
+    width: 70vw;
+    bottom: 1vh;
+    left: 50%;
+    transform: translate(-50%);
 }
+/*fim section sapatos*/
+
+
+/*section elegancia*/
 .elegancia{
-    background-color:var(--escuro) ;
-    height:820px;
+    height: 55vw;
+    max-height: 720px;
+    width: 100%;
+    background-color: var(--escuro);
+    position: relative;
 }
+
 .elegancia h1{
     color: var(--claro);
-    font-size: 12em;
+    font-size: 13vw;
     text-align: center;
-    padding-top: 90px;
+    padding-top: 3vh;
 }
-.container-elegancia{
-    position: relative;
-}
-.elegancia-maquina{
-    position: absolute;
-    top: 250px;
-    left: 400px;
-}
-.elegancia-maquina img{
-    width: 600px;
-}
+
 .elegancia h2{
     color: var(--claro);
-    font-size: 2em;
+    font-size: 2.5vw;
     position: absolute;
-    top: 410px;
-    left: 100px;
+    bottom: 13vw;
+    left: 5vw;
 }
-.elegancia h3{
-    color: var(--claro);
-    font-size: 3em;
+
+.elegancia a{
     text-decoration: none;
-    text-align: left;
 }
-.elegancia-saiba-mais-texto a{
-    text-decoration: none;
-    text-align: left;
-}
+
 .elegancia-saiba-mais{
     position: absolute;
-    top: 400px;
-    left: 1100px;
+    bottom: 17vw;
+    right: 12vw;
 }
+
+.elegancia-saiba-mais h3{
+    color: var(--claro);
+    font-size: 3.5vw;
+}
+
+.elegancia-saiba-mais img{
+    width: 3.5vw;
+    max-width: 40px;
+    position: absolute;
+    bottom: 1vw;
+    left: 8vw;
+}
+
+.elegancia-maquina img{
+    width: 44vw;
+    max-width: 590px;
+    position: absolute;
+    bottom: 1vh;
+    left: 50%;
+    transform: translate(-50%);
+}
+/*fim section elegancia*/
+
+
+/*section sobre nos*/
 .sobre-nos{
+    height: 54vw;
+    max-height: 710px;
+    width: 100%;
     background-color: var(--claro);
-    height: 820px;
-}
-.container-sobre-nos{
     position: relative;
 }
-.sobre-nos h1{
-    font-size: 9em;
-    color: var(--escuro);
-    position: absolute;
-    top: 50px;
-    left: 600px;
-}
-.sobre-nos p{
-    font-size: 1.3em;
-    width: 600px;
-    color: var(--escuro);
-    position: absolute;
-    top: 300px;
-    left: 700px;
-}
+
 .sobre-nos img{
-    width: 650px;
-    position: absolute;
-    top: 250px;
-    left: 0px;
-    border: 3px solid black;
+    width: 45vw;
+    border: 0.3vh solid rgba(0, 0, 0, 0.722);
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.516);
+    position: absolute;
+    bottom: 8vh;
 }
+
+.sobre-nos h1{
+    color: var(--escuro);
+    font-size: 10vw;
+    position: absolute;
+    top: 3vw;
+    right: 15vw;
+}
+
+.sobre-nos p{
+    color: var(--escuro);
+    font-size: 2.15vw;
+    width: 44vw;
+    position: absolute;
+    top: 16vw;
+    right: 5vw;
+}
+/*fim section sobre nos*/
+
+
+/*section fotos*/
 .fotos{
+    height: 54vw;
+    max-height: 710px;
+    width: 100%;
     background-color: var(--claro);
-    height: 820px;
-}
-.container-fotos{
     position: relative;
 }
+
 .foto-logo img{
+    width: 30vw;
+    max-width: 300px;
     position: absolute;
-    top: 30px;
-    left: 150px;
-    width: 300px;
+    top: -2vw;
+    left: 10vw;
 }
+
 .foto-1 img{
-    position: absolute;
-    top: 300px;
-    left: 50px;
-    width: 400px;
-    height: 400px;
-    border: 2px solid var(--cinza);
+    width: 27vw;
+    border: 0.3vh solid var(--cinza);
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.516);
+    position: absolute;
+    bottom: 5vh;
+    left: 5vw;
 }
+
 .foto-2 img{
-    position: absolute;
-    top: 168px;
-    left: 990px;
-    width: 400px;
-    border: 2px solid var(--cinza);
+    width: 27vw;
+    border: 0.3vh solid var(--cinza);
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.516);
+    position: absolute;
+    bottom: 5vh;
+    left: 50%;
+    transform: translate(-50%);
 }
+
 .foto-3 img{
-    position: absolute;
-    top: 300px;
-    left: 520px;
-    width: 400px;
-    height: 400px;
-    border: 2px solid var(--cinza);
+    width: 27vw;
+    border: 0.3vh solid var(--cinza);
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.516);
+    position: absolute;
+    bottom: 5vh;
+    right: 5vw;
 }
+/*fim section fotos*/
+
+
+/*footer*/
 footer{
     background-color:var(--escuro) ;
-    height: 200px;
-}
-.container-footer{
+    height: 29vw;
+    max-height: 170px;
     position: relative;
 }
-.container-footer img{
-    width: 20px;
-}
+
 .footer-luigi h1{
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: var(--cinza);
     font-weight: normal;
     position: absolute;
-    top: 40px;
-    left: 655px;
+    bottom: 16vh;
+    left: 50%;
+    transform: translate(-50%);
 }
+
+/*footer paginas*/
+.footer-paginas{
+    position: absolute;
+    bottom: 9vh;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    gap: 25px;
+}
+
 .footer-paginas a{
     text-decoration: none;
     color: var(--claro);
+    font-size: 1em;
+    text-align: center;
 }
+
 .footer-inicio{
-    position: absolute;
-    top: 90px;
-    left: 505px;
+    width: 38px;
 }
+
 .footer-sapatos{
-    position: absolute;
-    top: 90px;
-    left: 569px;
+    width: 84px;
 }
+
 .footer-elegancia{
-    position: absolute;
-    top: 90px;
-    left: 683px;
+    width: 70px;
 }
+
 .footer-sobre-nos{
-    position: absolute;
-    top: 90px;
-    left: 784px;
+    width: 80px;
 }
+
 .footer-contato{
-    position: absolute;
-    top: 90px;
-    left: 890px;
+    width: 58px;
 }
-.footer-insta{
+
+/*footer fotos*/
+.footer-fotos{
+    max-width: 70vw;
     position: absolute;
-    top: 140px;
-    left: 650px;
+    bottom: 6vh;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    gap: 20px;
 }
-.footer-face{
+
+.footer-fotos img{
+    width: 2.8vw;
+    max-width: 18px;
+}
+
+/*footer direitos*/
+.footer-direitos {
     position: absolute;
-    top: 140px;
-    left: 690px;
+    bottom: 0vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--cinza);
+    font-size: 0.7em;
+    text-align: center;
 }
-.footer-whats{
-    position: absolute;
-    top: 140px;
-    left: 730px;
-}
-.footer-map{
-    position: absolute;
-    top: 140px;
-    left: 770px;
-}
+
+/*fim footer*/
 
