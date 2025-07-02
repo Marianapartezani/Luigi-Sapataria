@@ -19,6 +19,11 @@ header{
 }
 .inicio-container{
     position: relative;
+    height: 800px;
+    width: 100%;
+}
+.centralizador{
+    margin: auto;
 }
 .img-bandeira img{
     position: absolute;
